@@ -89,7 +89,6 @@ export default function Login() {
                 type="text"
                 value={user}
                 onChange={e=>setUser(e.target.value)}
-                placeholder="admin"
               />
             </div>
             <div className="form-group">
@@ -98,7 +97,6 @@ export default function Login() {
                 type="password"
                 value={pass}
                 onChange={e=>setPass(e.target.value)}
-                placeholder="admin123"
               />
             </div>
             <button
@@ -124,10 +122,13 @@ export default function Login() {
           <aside className="login-help">
             <h2>¿Cómo generar tu enlace?</h2>
             <ol>
-              <li>Ingresa tus credenciales de administrador.</li>
+              <li>Ingresa tus credenciales de administrador. "No hagas click en Entrar aun"</li>
               <li>Pulsa <strong>“Generar Magic Link”</strong>.</li>
               <li>Se creará un enlace de un solo uso y se copiará al portapapeles.</li>
-              <li>Pega el enlace en otra pestaña para acceder sin introducir credenciales.</li>
+              <li>Usuario admin de prueba: admin:contraseña123. 
+                Este es solo un Entorno de Prueba.</li>
+         
+
             </ol>
           </aside>
         </div>

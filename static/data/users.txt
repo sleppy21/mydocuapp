@@ -1,4 +1,4 @@
-alice:password123
+prueba:contraseña21
 bob:securePass!
 charlie:qwerty789
-admin:admin123
+admin:contraseña123

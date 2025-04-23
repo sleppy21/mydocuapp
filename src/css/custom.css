@@ -19,7 +19,6 @@
     align-content: center;
     align-items: center;
     justify-items: center;
-
 }
 
 .auth-card {
@@ -37,12 +36,11 @@
   /* Panel de ayuda al usuario */
   .login-help {
     padding: 2rem;
-
     background: #ffffff;
     font-size: 0.95rem;
     line-height: 1.4;
     color: #0000009e;
-    transform: translate(-1000px,-32px);
+    transform: translate(-1130px,-32px);
     border-radius: 1rem;
     box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
     width: 500px;
@@ -181,7 +179,7 @@
     font-size: 2rem;
     color: #0c0c0c;
     text-align: center;
-    transform: translate(110px);
+    transform: translate(30px);
   }
   
   .form-group {
@@ -197,7 +195,7 @@
     margin-bottom: 0.5rem;
     font-weight: 600;
     color: #333;
-
+    width: 380px;
   }
   
   .form-group input {
@@ -211,19 +209,20 @@
   
   /* Botones dentro de auth-card */
   .auth-card .button.primary {
-    width: 100%;
     margin-top: 1rem;
+    transform: translate(130px);
   }
   
   .auth-card .button.secondary {
-    width: 100%;
     margin-top: 0.5rem;
     background-color: #f0f0f0;
     color: #333;
+    transform: translate(-40px, 70px);
+
   }
   
   .auth-card .button.secondary:hover {
-    background-color: #e0e0e0;
+    background-color: #e0e0e0ae;
   }
   
   /* ---------------- Alertas ---------------- */
@@ -237,11 +236,15 @@
   .alert.error {
     background-color: #fdecea;
     color: #e74c3c;
+    transform: translate(30px, 70px);
+
   }
   
   .alert.success {
     background-color: #e9f7ef;
     color: #2ecc71;
+    transform: translate(30px, 70px);
+
   }
   
   /* ---------------- Clase .hola (ejemplo) ---------------- */
