@@ -122,7 +122,7 @@ export default function Login() {
           <aside className="login-help">
             <h2>¿Cómo generar tu enlace?</h2>
             <ol>
-              <li>Ingresa tus credenciales de administrador. "No hagas click en Entrar aun"</li>
+              <li>Ingresa tus credenciales de administrador. "Solo ingresar, no hagas click en Entrar aun"</li>
               <li>Pulsa <strong>“Generar Magic Link”</strong>.</li>
               <li>Se creará un enlace de un solo uso y se copiará al portapapeles.</li>
               <li>Usuario admin de prueba: admin:contraseña123. 

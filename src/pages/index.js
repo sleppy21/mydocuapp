@@ -62,9 +62,9 @@ export default function Home() {
         </section>
 
         {/* SECCIÓN EXTRA: BENEFICIOS */}
-        <section className="features-section">
+        <section className="features-section2">
           <h2>Lo que obtienes con MagicLock</h2>
-          <ul className="features-list">
+          <ul className="features-list2">
             <li>Tu información segura y accesible solo por ti</li>
             <li>Interfaz moderna y enfocada en la experiencia de usuario</li>
             <li>Compatible con navegadores modernos y móviles</li>
