@@ -77,7 +77,7 @@ export default function Login() {
 
   return (
     <Layout title="Iniciar Sesión" description="MagicLock Login">
-      <main className="container">
+      <main className="container2">
         <div className="auth-card grid-2cols">
 
           {/* FORMULARIO */}
