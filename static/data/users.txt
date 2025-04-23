@@ -1,0 +1,4 @@
+alice:password123
+bob:securePass!
+charlie:qwerty789
+admin:admin123
