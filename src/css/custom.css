@@ -2,17 +2,12 @@
 
 /* ---------------- Contenedor general ---------------- */
 .container {
-    padding: 60px 1rem;
-    max-width: 400px;
-    margin: 0 auto; /* Centrar horizontalmente */
+    max-width: 90%;
     font-family: 'Inter', sans-serif;
     color: var(--ifm-font-base-color);
     box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Centrar contenido */
-    justify-content: center;
-    min-height: 100vh; /* Para centrar verticalmente */
+    padding-top: 50px;
+    min-height: 80vh; /* Para centrar verticalmente */
   }
   
   /* ---------------- Hero full-screen ---------------- */
@@ -63,7 +58,7 @@
   .button {
     display: inline-block;
     background-color: #fff;
-    color: #4a90e2;
+    color: #00000094;
     padding: 0.75rem 1.5rem;
     font-size: 1rem;
     font-weight: 600;
@@ -97,7 +92,6 @@
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     gap: 1.5rem;
     list-style: none;
-    padding: 0;
     justify-items: center;
   }
   
@@ -107,6 +101,7 @@
     font-size: 1.1rem;
     line-height: 1.4;
     color: var(--ifm-font-base-color);
+    padding-bottom: 30px;
   }
   
   .features-list li::before {
@@ -138,7 +133,7 @@
     margin-top: 0;
     margin-bottom: 1.5rem;
     font-size: 2rem;
-    color: #4a90e2;
+    color: #0c0c0ca4;
   }
   
   .form-group {
@@ -204,4 +199,40 @@
     outline: none;
     background-color: #fff;
   }
+  /* Distribuye formulario e instrucciones */
+.auth-card.grid-2cols {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    align-items: start;
+  }
   
+  /* Panel de ayuda al usuario */
+  .login-help {
+    background: #ffffff;
+    padding: 1rem 1.5rem;
+    border-radius: 0.5rem;
+    font-size: 0.95rem;
+    line-height: 1.4;
+    color: #ffffff;
+    transform: translate(-800px,0);
+    width: 300px;
+  }
+  .login-help h2 {
+    margin-top: 0;
+    font-size: 1.25rem;
+    color: #4a90e2;
+  }
+  .login-help ol {
+    padding-left: 1.25rem;
+  }
+  .login-help li {
+    margin-bottom: 0.75rem;
+  }
+  .icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    color: inherit;
+    transform: translate(0,3px);
+  }
